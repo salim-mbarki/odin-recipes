@@ -34,7 +34,10 @@ body {
 }
 
 img {
-    margin-bottom: 30px;
+  display: block;
+  width: 60%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 section {
@@ -43,12 +46,13 @@ section {
 }
 
 section h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-section ul,ol {
-    list-style-position: inside;
+section ul,
+ol {
+  list-style-position: inside;
 }
 
 section li::marker {
